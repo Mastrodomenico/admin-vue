@@ -49,7 +49,7 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    ['bootstrap-vue/nuxt', { css: false }],
+    ['bootstrap-vue/nuxt'],
   ],
   /*
   ** Axios module configuration

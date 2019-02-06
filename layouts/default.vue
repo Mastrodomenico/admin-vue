@@ -21,8 +21,6 @@
     </div>
   </div>
 
-  <script src="/jquery/jquery.min.js"></script>
-  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </template>
 
@@ -32,6 +30,9 @@ import TopBar from '~/components/TopBar.vue'
 import Foot from '~/components/Foot.vue'
 
 export default {
+
+  middleware: 'core',
+
   components: {
     Sidebar,
     TopBar,
